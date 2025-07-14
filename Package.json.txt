@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-api",
+  "version": "1.0.0",
+  "description": "Simple REST API with MongoDB for SailPoint integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+  }
+}
