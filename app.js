@@ -4,8 +4,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// ✅ Correct MongoDB URI (put in .env if needed)
-mongoose.connect('mongodb+srv://tiwaryishita56:68daunabfD3bLLIm@cluster0.70vfu21.mongodb.net/sailpointdb?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://tiwaryishita56:68daunabfD3blLIm@cluster0.70vfu21.mongodb.net/sailpointdb?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
